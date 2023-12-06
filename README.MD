@@ -14,13 +14,13 @@ This repository contains my personal dotfiles, including configurations for Zsh,
 1. Clone the repository to your home directory:
 
     ```bash
-    git clone <your-dotfiles-repo-url> ~/.dotfiles
+    git clone <https://github.com/PasinduUpendra/dotfiles/tree/main> ~/dotfiles
     ```
 
 2. Run the setup script:
 
     ```bash
-    cd ~/.dotfiles
+    cd ~/dotfiles
     ./setup.sh
     ```
 
@@ -32,7 +32,21 @@ Feel free to modify the configurations to suit your preferences. The repository 
 
 - `.zshrc`: Zsh configuration file
 - `.p10k.zsh`: Powerlevel10k theme configuration
-- `.oh-my-zsh`: Oh My Zsh configuration
+
+
+
+## Zsh Configuration (.zshrc)
+The `.zshrc` file is a configuration file for the Zsh shell, containing settings, environment variables, and command aliases to customize the behavior of your terminal.
+
+### Contents
+
+The `.zshrc` file includes various configurations and commands, such as:
+
+- Checking for and loading Powerlevel10k instant prompt and iTerm shell integration.
+- Configuring Homebrew-related settings, including loading plugins, completion features, and themes.
+- Defining a list of Zsh plugins (`git`, `autojump`, `zoxide`, `z`, `gh`, `nvm`, `npm`, `macos`).
+- Customizing PATH variables for various tools and package managers (`nvm`, `pyenv`, `yarn`, `Spicetify`, `RVM`, `pnpm`, `Sublime Text`, etc.).
+- Environment configuration for development tools like Node.js, Python, RVM, package managers, and text editors.
 
 ## License
 
